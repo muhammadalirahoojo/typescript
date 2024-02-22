@@ -1,6 +1,18 @@
-var myInfo = function (myName, age, fvtNum) {
-    if (fvtNum === void 0) { fvtNum = 10; }
-    return ("I am ".concat(myName, " My Age is: ").concat(age, " Favourite Number is: ").concat(fvtNum));
+"use strict";
+const myInfo = (myName, age, fvtNum = 10) => {
+    return (`I am ${myName} My Age is: ${age} Favourite Number is: ${fvtNum}`);
 };
 console.log(myInfo("Muhammad Ali", 30));
 console.log(myInfo("Nadar Ali", 22));
+let light = "Green";
+if (light === "Green") {
+    console.log("Go");
+}
+else if (light = "Yellow") {
+    console.log("Look");
+}
+else if (light == "Red") {
+    console.log("Stop");
+}
+else
+    console.log("Light is Broken");
