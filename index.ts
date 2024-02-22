@@ -26,4 +26,7 @@ if(light==="Green"){
     else
     console.log("Light is Broken")
 
+import num from "./first.js"
+import {b,c} from "./second.js"
+console.log(num+b+c)
 
